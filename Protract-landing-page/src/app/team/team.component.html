@@ -1,8 +1,6 @@
 <div class = "flex justify-around flex-wrap">
-    <app-card></app-card>
-    <app-card></app-card>
-    <app-card></app-card>
-    <app-card></app-card>
-    <app-card></app-card>
-
+    <app-card 
+        *ngFor = "let user of userData"
+        [userData] = "user">
+    </app-card>
 </div>

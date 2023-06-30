@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import userData from '../../assets/profiles.json';
+import { Team } from './team'
 
 @Component({
   selector: 'app-team',
@@ -6,5 +8,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./team.component.scss']
 })
 export class TeamComponent {
-
+  constructor() {
+    this.userData = userData;
+    console.log(this)
+  }
+  userData: Team[];
 }
