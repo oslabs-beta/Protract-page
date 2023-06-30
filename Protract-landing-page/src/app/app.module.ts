@@ -8,6 +8,7 @@ import { FeaturesComponent } from './features/features.component';
 import { ProcessComponent } from './process/process.component';
 import { TeamComponent } from './team/team.component';
 import { FooterComponent } from './footer/footer.component';
+import { CardComponent } from './team/card/card.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { FooterComponent } from './footer/footer.component';
     FeaturesComponent,
     ProcessComponent,
     TeamComponent,
-    FooterComponent
+    FooterComponent,
+    CardComponent,
   ],
   imports: [
     BrowserModule
