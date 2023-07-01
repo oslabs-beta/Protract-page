@@ -3,4 +3,34 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
 @import "primeicons/primeicons.css";
+@import "primeflex/primeflex.css";
+@import "primeng/resources/primeng.css";
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+
+body {
+    font-family: var(--font-family);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+// .gradient-background {
+//     background: linear-gradient(205deg, #d63326, #ffffff, #ffffff);
+//     background-size: 180% 180%;
+//     animation: gradient-animation 18s ease infinite;
+// }
+
+// @keyframes gradient-animation {
+//     0% {
+//         background-position: 0% 50%;
+//     }
+
+//     50% {
+//         background-position: 100% 50%;
+//     }
+
+//     100% {
+//         background-position: 0% 50%;
+//     }
+// }

@@ -11,7 +11,7 @@ export class NavbarComponent {
   menu(){
     let list = document.querySelector('#nav-items');
     if(list !== null){
-      this.nav === 'bars' ? (this.nav = 'close',list.classList.add('top-[80px]'), list.classList.add('opacity-100')): (this.nav = 'bars',list.classList.remove('top-[80px]'), list.classList.remove('opacity-100'));
+      this.nav === 'bars' ? (this.nav = 'opened',list.classList.add('top-[80px]'), list.classList.add('opacity-100')): (this.nav = 'bars',list.classList.remove('top-[80px]'), list.classList.remove('opacity-100'));
     }
 }
 }
