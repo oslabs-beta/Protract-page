@@ -1,9 +1,11 @@
-<section class="my-32">
-<div>
-    <h1 class='text-center features text-red-600 my-3'>KEY FEATURES</h1>
-    <h2 class="text-center text-5xl mb-5">What can you do with the power of Protract?</h2>
-</div>
-<div class='flex justify-around flex-wrap featureContainer border-0'>
-    <app-card-features *ngFor="let cardfeatures of cardFeatures" [cardFeatures]="cardfeatures"></app-card-features>
-</div>
+<section class="mt-32">
+    <div>
+        <h1 class='text-center features text-red-600 my-3'>KEY FEATURES</h1>
+        <h2 class="text-center text-5xl mb-5">What can you do with the power of Protract?</h2>
+    </div>
+    <div class='flex justify-around flex-wrap featureContainer border-0'>
+        <app-card-features *ngFor="let cardfeatures of cardFeatures" [cardFeatures]="cardfeatures"></app-card-features>
+    </div>
+    <h2 class="text-5xl text-center mt-60 mb-20">Build your applications faster than ever before.<br> Recliam time to spend on
+        meaningful work.</h2>
 </section>
