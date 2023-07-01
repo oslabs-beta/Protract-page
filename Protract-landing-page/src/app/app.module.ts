@@ -9,6 +9,7 @@ import { ProcessComponent } from './process/process.component';
 import { TeamComponent } from './team/team.component';
 import { FooterComponent } from './footer/footer.component';
 import { CardComponent } from './team/card/card.component';
+import { CardFeaturesComponent } from './features/card-features/card-features.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { CardComponent } from './team/card/card.component';
     TeamComponent,
     FooterComponent,
     CardComponent,
+    CardFeaturesComponent,
   ],
   imports: [
     BrowserModule

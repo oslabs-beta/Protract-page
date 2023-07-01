@@ -10,7 +10,6 @@ import { Team } from './team'
 export class TeamComponent {
   constructor() {
     this.userData = userData;
-    console.log(this)
   }
   userData: Team[];
 }

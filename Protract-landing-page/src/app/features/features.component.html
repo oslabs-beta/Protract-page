@@ -1,3 +1,10 @@
-<div class="border-4 border-orange-500 h-screen">
-<p>features works!</p>
+<h1 class = 'text-center features'>Key Features</h1>
+
+<div class = 'flex justify-around flex-wrap featureContainer'>
+    <app-card-features
+
+        *ngFor="let cardfeatures of cardFeatures"
+        [cardFeatures] = "cardfeatures">
+
+    </app-card-features>
 </div>
