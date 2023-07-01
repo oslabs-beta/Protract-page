@@ -1,6 +1,12 @@
-<div id="team" class = "flex justify-around flex-wrap">
-    <app-card 
-        *ngFor = "let user of userData"
-        [userData] = "user">
-    </app-card>
-</div>
+<section id="team">
+    <div class="flex flex-col items-center justify-center">
+        <h3 class="text-xs text-red-600 font-bold mb-2">TEAM</h3>
+        <h2 class="text-4xl font-bold">Meet the team</h2>
+    </div>
+    <div class="flex justify-around flex-wrap">
+        <app-card 
+            *ngFor = "let user of userData"
+            [userData] = "user">
+        </app-card>
+    </div>
+</section>
