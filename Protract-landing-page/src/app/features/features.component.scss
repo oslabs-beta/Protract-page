@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,300;0,700;0,900;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap');
 
 .featureContainer{
     max-width: 80%;
@@ -6,13 +8,20 @@
 }
 
 
-.features{
-    font-family: 'Chivo', sans-serif;
-    font-weight: 900;
-    font-size: 2.5rem;
-    background:linear-gradient(180deg, transparent 60%, #25C9D4 60%);
-    width: 17rem;
-    margin: auto;
-    line-height: 1.2;
+// .features{
+//     font-family: "Inter";
+//     font-weight: 300;
+//     font-size: 2.5rem;
+//     background:linear-gradient(180deg, transparent 60%, #fcd34d 60%);
+//     width: 17rem;
+//     margin: auto;
+//     line-height: 1.2;
+// }
+h1{
+    font-family: 'Inter', sans-serif;
+    font-weight:600;
 }
-
+h2{
+    font-family:'Inter',sans-serif;
+    font-weight:800;
+}
