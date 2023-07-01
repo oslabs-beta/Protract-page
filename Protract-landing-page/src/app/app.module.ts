@@ -1,6 +1,11 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import {StyleClassModule} from 'primeng/styleclass';
+import {ButtonModule} from 'primeng/button';
+import {RippleModule} from 'primeng/ripple';
+import { TabViewModule } from 'primeng/tabview';
+
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { DemoComponent } from './demo/demo.component';
@@ -24,7 +29,11 @@ import { CardFeaturesComponent } from './features/card-features/card-features.co
     CardFeaturesComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    StyleClassModule,
+    ButtonModule,
+    RippleModule,
+    TabViewModule
   ],
   providers: [],
   bootstrap: [AppComponent]
