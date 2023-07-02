@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
-import { Features } from './features'
-import cardFeatures  from '../../assets/cardFeatures.json'
+import { Features } from './features';
+import cardFeatures  from '../../assets/cardFeatures.json';
+import AOS from 'aos';
 
 @Component({
   selector: 'app-features',
@@ -10,6 +11,13 @@ import cardFeatures  from '../../assets/cardFeatures.json'
 export class FeaturesComponent {
   constructor(){
     this.cardFeatures = cardFeatures
+  }
+  ngOnInit(){
+    AOS.init({
+      // once : true,
+      offset : 200,
+      duration : 500,
+    });
   }
   cardFeatures: Features[]
 }

@@ -6,6 +6,7 @@ import {ButtonModule} from 'primeng/button';
 import {RippleModule} from 'primeng/ripple';
 import { TabViewModule } from 'primeng/tabview';
 
+
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { DemoComponent } from './demo/demo.component';
@@ -33,7 +34,7 @@ import { CardFeaturesComponent } from './features/card-features/card-features.co
     StyleClassModule,
     ButtonModule,
     RippleModule,
-    TabViewModule
+    TabViewModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
