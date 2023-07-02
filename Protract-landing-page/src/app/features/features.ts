@@ -1,4 +1,5 @@
 export interface Features{
     title: string,
-    body: string
+    body: string,
+    image:string
 }
