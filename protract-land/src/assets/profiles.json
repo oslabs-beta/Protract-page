@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Don Do",
+        "picture": "../../../assets/profile-pic/Don.jpg",
+        "github": "",
+        "linkedin": ""
+    },
+    {
+        "name": "Vander Harris",
+        "picture": "../../../assets/profile-pic/Vander.jpg",
+        "github": "",
+        "linkedin": ""
+    },
+    {
+        "name": "Peter Tran",
+        "picture": "../../../assets/profile-pic/peter.png",
+        "github": "",
+        "linkedin": ""
+    },
+    {
+        "name": "Steven Vaughn",
+        "picture": "../../../assets/profile-pic/Steven.jpg",
+        "github": "",
+        "linkedin": ""
+    },
+    {
+        "name": "Douglas Yao",
+        "picture": "../../../assets/profile-pic/Doug.jpg",
+        "github": "",
+        "linkedin": ""
+    }
+]

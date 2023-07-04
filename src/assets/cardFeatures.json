@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Cloud Storage",
+        "body": "Access your projects from anywhere. Login to continue saved projects.",
+        "image": "../../assets/icons/undraw-server.svg"
+    },
+    {
+        "title": "Live Visualization",
+        "body": "See the code building the foundation of your project in realtime.",
+        "image": "../../assets/icons/undraw.svg"
+    },
+    {
+        "title": "Rapid Construction",
+        "body": "Quickly create the component structure for your Angular project.",
+        "image": "../../assets/icons/undraw-fast.svg"
+    }
+]
