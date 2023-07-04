@@ -1,0 +1,20 @@
+.cardContainer{
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    max-width: 350px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.cardContainer:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.title{
+    color: #D63326;
+    font-weight: 700;
+    font-size: 1.5rem;
+    // font-family:'Inter', sans-serif;
+}
+
+.body{
+    font-size: 1rem;
+    font-weight: 400;
+}
