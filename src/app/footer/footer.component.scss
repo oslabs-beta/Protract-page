@@ -2,10 +2,18 @@
 #medium-logo{
     filter: contrast(25%);
 }
-
 #medium-logo:hover{
     filter: contrast(100%);
 }
+
+#linkedin-logo{
+    // filter: brightness(.7);
+    filter: grayscale(90%);
+}
+#linkedin-logo:hover{
+    filter: grayscale(10%);
+}
+
 .footer{
     font-family: 'Chivo', sans-serif;
     font-weight: 700;
