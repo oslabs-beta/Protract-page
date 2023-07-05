@@ -2,6 +2,10 @@
 #medium-logo{
     filter: contrast(25%);
 }
+
+#medium-logo:hover{
+    filter: contrast(100%);
+}
 .footer{
     font-family: 'Chivo', sans-serif;
     font-weight: 700;
