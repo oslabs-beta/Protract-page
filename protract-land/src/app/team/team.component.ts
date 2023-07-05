@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import userData from '../../assets/profiles.json';
+import userData from '../../assets/profiles.json'
 import { Team } from './team'
 
 @Component({
