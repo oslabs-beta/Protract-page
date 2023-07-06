@@ -14,7 +14,7 @@ export class FeaturesComponent {
   }
   ngOnInit(){
     AOS.init({
-      // once : true,
+      once : true,
       // offset : 200,
       duration : 500,
       disable: 'mobile',
