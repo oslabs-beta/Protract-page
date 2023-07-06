@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Don Do",
+        "picture": "../../../assets/profile-pic/Don.jpg",
+        "github": "https://github.com/Donlebon",
+        "linkedin": "https://www.linkedin.com/in/don-do-26822a281"
+    },
+    {
+        "name": "Vander Harris",
+        "picture": "../../../assets/profile-pic/Vander.jpg",
+        "github": "https://github.com/vdharris/",
+        "linkedin": "https://www.linkedin.com/in/vanderharris/"
+    },
+    {
+        "name": "Peter Tran",
+        "picture": "../../../assets/profile-pic/peter.png",
+        "github": "https://github.com/tranpeter95",
+        "linkedin": "https://www.linkedin.com/in/peter-tran-6574b81b9/"
+    },
+    {
+        "name": "Steven Vaughn",
+        "picture": "../../../assets/profile-pic/Steven.jpg",
+        "github": "https://github.com/Svaughn4418",
+        "linkedin": "https://www.linkedin.com/in/steven-vaughn-126a69280"
+    },
+    {
+        "name": "Douglas Yao",
+        "picture": "../../../assets/profile-pic/Doug.jpg",
+        "github": "https://github.com/douglas-yao",
+        "linkedin": "https://www.linkedin.com/in/douglas-yao/"
+    }
+]

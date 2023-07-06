@@ -1,0 +1,15 @@
+<section class="mt-16">
+    <div data-aos="fade-up" data-aos-duration="1000">
+        <h1 class='text-center text-sm features text-red-600 my-3'>KEY FEATURES</h1>
+        <h2 class="text-center text-5xl mb-5">What can you do with the power of Protract?</h2>
+    </div>
+    <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="500"
+        class='flex justify-around flex-wrap featureContainer border-0'>
+        <app-card-features *ngFor="let cardfeatures of cardFeatures" [cardFeatures]="cardfeatures"></app-card-features>
+    </div>
+    <div data-aos="fade-right" data-aos-duration="1000" data-aos-offset="700">
+        <h2 class="border-0 text-5xl text-center mt-52 mb-20">Build your applications faster than ever before.<br>
+            Recliam time to spend on
+            meaningful work.</h2>
+    </div>
+</section>
